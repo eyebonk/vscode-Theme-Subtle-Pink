@@ -1,0 +1,36 @@
+{
+  "name": "subtle-pink",
+  "displayName": "Subtle Pink",
+  "description": "A theme for VS Code, subtle background with pink accent",
+  "publisher": "eyebonk",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes",
+    "pink"
+  ],
+  "homepage": "https://github.com/eyebonk/vscode-Theme-Subtle-Pink",
+  "bugs": {
+    "url": "https://github.com/eyebonk/vscode-Theme-Subtle-Pink/issues"
+  },
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eyebonk/vscode-Theme-Subtle-Pink.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Subtle Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Subtle Pink-color-theme.json"
+      }
+    ]
+  }
+}
